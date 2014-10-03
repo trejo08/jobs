@@ -1,0 +1,76 @@
+	table{
+		margin:0 auto;
+	}
+	.centrado{
+		text-align: center;;
+	}
+	h1{
+		text-align: center;
+		text-shadow:2px 2px 15px pink;
+	}
+
+	td
+	{
+		overflow-x: hidden;
+	}
+	fieldset{
+		width: 600px;
+		margin: 0 auto;
+	}
+
+
+
+
+	/*CSS PARA ERRORES*/
+	.LV_validation_message{
+		color: #CC0000;
+    	background-color: white;
+    	background-size:15px;
+
+    	background-repeat: no-repeat;	
+    	position: absolute;
+    	clear: right;
+    	-webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+		animation: myfirst 5s;
+	}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+
+	.LV_valid {
+	    color:green;
+	}
+		
+	.LV_invalid {
+	    color:#CC0000;
+	}
+	    
+	.LV_valid_field,
+	input.LV_valid_field:hover, 
+	input.LV_valid_field:active,
+	textarea.LV_valid_field:hover, 
+	textarea.LV_valid_field:active {
+	    border: 1px solid #00CC00;
+	}
+	    
+	.LV_invalid_field, 
+	input.LV_invalid_field:hover, 
+	input.LV_invalid_field:active,
+	textarea.LV_invalid_field:hover, 
+	textarea.LV_invalid_field:active {
+	    border: 1px solid #CC0000;
+	}
